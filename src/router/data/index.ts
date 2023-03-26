@@ -15,25 +15,18 @@
  * limitations under the License.
  */
 import general from "./general";
-import serviceMesh from "./serviceMesh";
+//import serviceMesh from "./serviceMesh";
 import database from "./database";
-import infrastructure from "./infrastructure";
+//import infrastructure from "./infrastructure";
 import selfObservability from "./selfObservability";
-import functions from "./functions";
-import browser from "./browser";
-import k8s from "./k8s";
-import gateway from "./gateway";
-import aws from "./aws";
+//import functions from "./functions";
+//import browser from "./browser";
+//import k8s from "./k8s";
+//import gateway from "./gateway";
+//import aws from "./aws";
 
 export default [
   ...general,
-  ...serviceMesh,
-  ...functions,
-  ...k8s,
-  ...infrastructure,
-  ...aws,
-  ...browser,
-  ...gateway,
   ...database,
   ...selfObservability,
 ];
